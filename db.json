@@ -1,0 +1,2023 @@
+{
+  "products": [
+    {
+      "id": "ac015125-6a75-4e75-b5a7-18b14b62f1e2",
+      "name": "Salgado",
+      "emoji": "🥐",
+      "price": 0.5,
+      "initialStock": 9999,
+      "stock": 9995,
+      "minStock": 2000
+    },
+    {
+      "id": "f86d0367-7168-4017-9129-5cc5905277df",
+      "name": "Menu Criança",
+      "emoji": "📦",
+      "price": 5,
+      "initialStock": 9999,
+      "stock": 9987,
+      "minStock": 2000
+    },
+    {
+      "id": "18eb3fe8-1dc9-42ad-8e24-eed68bc27f71",
+      "name": "Copo",
+      "emoji": "🥛",
+      "price": 1,
+      "initialStock": 9999,
+      "stock": 9999,
+      "minStock": 2000
+    },
+    {
+      "id": "c4f03326-5497-4c3c-9e9f-3db16743c3e4",
+      "name": "Café",
+      "emoji": "☕",
+      "price": 0.6,
+      "initialStock": 9999,
+      "stock": 9995,
+      "minStock": 2000
+    },
+    {
+      "id": "f11b9238-9e83-4db6-99a9-7737824c8ca2",
+      "name": "Água, 1.5L",
+      "emoji": "💧",
+      "price": 2,
+      "initialStock": 9999,
+      "stock": 9998,
+      "minStock": 2000
+    },
+    {
+      "id": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+      "name": "Água, 50cl",
+      "emoji": "💧",
+      "price": 1,
+      "initialStock": 9999,
+      "stock": 9990,
+      "minStock": 2000
+    },
+    {
+      "id": "368668dd-2ac0-4b83-9871-699039c775d8",
+      "name": "Sangria",
+      "emoji": "🍷",
+      "price": 1.5,
+      "initialStock": 9999,
+      "stock": 9974,
+      "minStock": 2000
+    },
+    {
+      "id": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+      "name": "Imperial",
+      "emoji": "🍺",
+      "price": 1.2,
+      "initialStock": 9999,
+      "stock": 9955,
+      "minStock": 2000
+    },
+    {
+      "id": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+      "name": "Bebida",
+      "emoji": "🥤",
+      "price": 1,
+      "initialStock": 9999,
+      "stock": 9980,
+      "minStock": 2000
+    },
+    {
+      "id": "97a5d7c1-2654-4c59-96d1-a8e2e379434c",
+      "name": "Sobremesa",
+      "emoji": "🍰",
+      "price": 1.5,
+      "initialStock": 9999,
+      "stock": 9994,
+      "minStock": 2000
+    },
+    {
+      "id": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+      "name": "Misto de Carnes",
+      "emoji": "🍗",
+      "price": 10,
+      "initialStock": 9999,
+      "stock": 9993,
+      "minStock": 2000
+    },
+    {
+      "id": "83236c53-cf2c-4216-ae62-fd3325ce1ff1",
+      "name": "Petiscos",
+      "emoji": "🧃",
+      "price": 5,
+      "initialStock": 9999,
+      "stock": 9999,
+      "minStock": 2000
+    },
+    {
+      "id": "500c9331-b408-44eb-ad5f-b4201e7f9317",
+      "name": "Caldo Verde",
+      "emoji": "🥬",
+      "price": 2.5,
+      "initialStock": 0,
+      "stock": 9997,
+      "minStock": 0
+    },
+    {
+      "id": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+      "name": "Bifana/Entremeada",
+      "emoji": "🍖",
+      "price": 3.5,
+      "initialStock": 9999,
+      "stock": 9985,
+      "minStock": 2000
+    },
+    {
+      "id": "49cffc8d-ec1c-4a66-ba01-550736923164",
+      "name": "Menu Adulto",
+      "emoji": "🍽",
+      "price": 10,
+      "initialStock": 9999,
+      "stock": 9986,
+      "minStock": 2000
+    }
+  ],
+  "sales": [
+    {
+      "id": "7d634674-e1dd-4c69-92dd-6145e208d735",
+      "date": "31/05/2026, 17:38:38",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "7d88d9a2-d022-4c3b-ae36-5df55416a2f8",
+      "date": "31/05/2026, 17:37:50",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 2
+        },
+        {
+          "productId": "97a5d7c1-2654-4c59-96d1-a8e2e379434c",
+          "name": "Sobremesa",
+          "price": 1.5,
+          "quantity": 2
+        }
+      ],
+      "total": 5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "243abb3c-6324-4e5a-99fb-56d863a27c50",
+      "date": "31/05/2026, 17:33:17",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "132e9458-7386-4b23-bd42-c308b48c5c48",
+      "date": "31/05/2026, 17:29:12",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "4e28ac05-c1ec-4841-8425-b5fde0840d31",
+      "date": "31/05/2026, 17:29:08",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "b0213fb7-b97f-436c-8b44-4a67d89a691b",
+      "date": "31/05/2026, 17:27:51",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "ac015125-6a75-4e75-b5a7-18b14b62f1e2",
+          "name": "Salgado",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "total": 3.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "44945f45-d65d-46b5-ba9f-ec3521ba32c3",
+      "date": "31/05/2026, 17:26:49",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "eaee4824-4750-4a28-98f2-17833d96a155",
+      "date": "31/05/2026, 17:26:39",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "ac015125-6a75-4e75-b5a7-18b14b62f1e2",
+          "name": "Salgado",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "total": 0.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "6c9df1ac-ff56-48fc-852d-f55480787af3",
+      "date": "31/05/2026, 17:25:05",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 6.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "c7267d4e-77bb-42fc-9ae0-141a05f2e32c",
+      "date": "31/05/2026, 17:24:02",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "db694c00-f4e7-439f-9e10-57ca10c2931b",
+      "date": "31/05/2026, 17:23:17",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "7ae728cc-7d2b-40bf-bd89-920b584401b1",
+      "date": "31/05/2026, 17:22:27",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 3
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 5.7,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "d67ec4ea-3ed2-42da-9214-1e9dc97f6af8",
+      "date": "31/05/2026, 17:19:22",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "ec0517d7-b229-45a2-8a57-8fa8c9cdcb5e",
+      "date": "31/05/2026, 17:15:05",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "595d677a-4d10-487d-a440-95246ac092de",
+      "date": "31/05/2026, 17:11:54",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "c2a92562-b674-4b7d-b28c-6e6bf06c4d2d",
+      "date": "31/05/2026, 17:10:47",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "97a5d7c1-2654-4c59-96d1-a8e2e379434c",
+          "name": "Sobremesa",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "177bdb50-5a6c-4947-b8e8-b3540e0032cd",
+      "date": "31/05/2026, 17:03:10",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "d05ebfcb-7a5e-4e4c-9b40-ea4ab6d5f8d2",
+      "date": "31/05/2026, 17:00:40",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "eee25f4c-e745-4d94-ab64-ab09214f02c1",
+      "date": "31/05/2026, 16:57:09",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "e0689eb0-52ad-4caf-96ff-30c56f8b73a3",
+      "date": "31/05/2026, 16:56:16",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 3
+        }
+      ],
+      "total": 4.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "a90fe7b8-3c28-4391-b725-dce2a533f27f",
+      "date": "31/05/2026, 16:55:09",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "7995198d-3f0d-444e-b093-5be5befd9542",
+      "date": "31/05/2026, 16:54:29",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "ac015125-6a75-4e75-b5a7-18b14b62f1e2",
+          "name": "Salgado",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "9a952e95-e8d2-4e5d-8589-0f2e16bcd09c",
+      "date": "31/05/2026, 16:50:09",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 4.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "d65b4216-ac87-4189-a36d-ffde9b76005c",
+      "date": "31/05/2026, 16:47:40",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "e5ca7688-409c-4df7-8ec5-f44c51dd6432",
+      "date": "31/05/2026, 16:45:44",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "91f0b86f-7e44-41e3-a43c-37cc3a59af8a",
+      "date": "31/05/2026, 16:45:24",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "c4f03326-5497-4c3c-9e9f-3db16743c3e4",
+          "name": "Café",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.7999999999999998,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "79cce71d-3589-43c3-a3ee-5e649f3e2c5e",
+      "date": "31/05/2026, 16:44:49",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "d2482a90-fe2d-4f71-b0ab-44a3bc4bce58",
+      "date": "31/05/2026, 16:43:26",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 2
+        }
+      ],
+      "total": 20,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "5d8f059e-2c6d-46e5-9d96-aa374788325d",
+      "date": "31/05/2026, 16:40:59",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 4.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "40124c16-ecfc-4f56-8d6f-010105a71046",
+      "date": "31/05/2026, 16:40:03",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 5.7,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "898dc0be-f4c7-4916-89c9-ae3d05c66ccf",
+      "date": "31/05/2026, 16:39:24",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        },
+        {
+          "productId": "97a5d7c1-2654-4c59-96d1-a8e2e379434c",
+          "name": "Sobremesa",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 3,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "15f01025-e9ad-4b54-8f4b-8045656e21da",
+      "date": "31/05/2026, 16:34:52",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "b2e2be49-6b67-4a57-b8b5-4a6467543309",
+      "date": "31/05/2026, 16:33:00",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "e397df2a-fbac-4c91-a5af-7898af6d6eb9",
+      "date": "31/05/2026, 16:32:51",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+          "name": "Misto de Carnes",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 3
+        }
+      ],
+      "total": 14.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "b5b73783-4b18-4be2-a48f-d43f2f911378",
+      "date": "31/05/2026, 16:31:57",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "20d78986-eff5-43fa-a131-88074757031a",
+      "date": "31/05/2026, 16:29:36",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "89a2194f-98c9-46ff-a6f0-6015be38cf07",
+      "date": "31/05/2026, 16:29:27",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 3.7,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "da8a99aa-fe12-4c1f-a06a-0975d367bff0",
+      "date": "31/05/2026, 16:28:38",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "34cfdcfc-8bd8-43da-bed3-809ddd7c6707",
+      "date": "31/05/2026, 16:27:25",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "c4c29a53-c81c-4734-99fb-a999e655239a",
+      "date": "31/05/2026, 16:25:41",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "c4f03326-5497-4c3c-9e9f-3db16743c3e4",
+          "name": "Café",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "total": 0.6,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "86e35a79-4ade-4bc3-a5f7-2edbfde77418",
+      "date": "31/05/2026, 16:23:44",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "51f5dc58-e3f6-4b6e-9a87-551d8deed058",
+      "date": "31/05/2026, 16:21:59",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "05677789-8c73-4f02-b1ef-46f218204615",
+      "date": "31/05/2026, 16:21:18",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "5f36cc29-0ffc-403c-a403-6836988489ef",
+      "date": "31/05/2026, 16:20:43",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 2
+        }
+      ],
+      "total": 3,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "8a9c0b4e-923f-4e1a-927e-9f23363ec7d9",
+      "date": "31/05/2026, 16:11:22",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 2
+        }
+      ],
+      "total": 4.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "c01ee8fc-d701-4717-a086-6dcdc8aa1b78",
+      "date": "31/05/2026, 16:10:27",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "1a84eacd-41a4-4cb2-9552-7b06a655128c",
+      "date": "31/05/2026, 16:05:07",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "60b2b0ff-f341-403f-8b24-6e0fddead571",
+      "date": "31/05/2026, 15:53:02",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "f61bf75d-4fef-4cc2-b065-f168463c2e11",
+      "date": "31/05/2026, 15:46:57",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "ccc09722-0cab-4f53-934f-e75b518b16ad",
+      "date": "31/05/2026, 15:43:14",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "f442968e-f943-425c-9abb-6682cbc400e1",
+      "date": "31/05/2026, 15:39:57",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 2.4,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "16258a39-70ff-43fa-bf45-cc000e960baa",
+      "date": "31/05/2026, 15:15:31",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "e9725e63-dca3-495b-a6dd-17aa7a5e4655",
+      "date": "31/05/2026, 15:09:22",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "84735d3b-4bf8-4fcd-a3b8-08f3a140d483",
+      "date": "31/05/2026, 15:05:02",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 2
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "4a6aa08f-c88e-4ddd-86be-d4eeeaec1edf",
+      "date": "31/05/2026, 15:03:34",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "00a8b720-ba61-4481-94b6-35b402d5d41a",
+      "date": "31/05/2026, 15:02:08",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        },
+        {
+          "productId": "500c9331-b408-44eb-ad5f-b4201e7f9317",
+          "name": "Caldo Verde",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "total": 5.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "ef48cd77-b8b7-4a8b-bd34-94ea1fdf1413",
+      "date": "31/05/2026, 14:55:21",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f11b9238-9e83-4db6-99a9-7737824c8ca2",
+          "name": "Água, 1.5L",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 3.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "fb6e4770-f703-4c36-941d-d8907d0ecf85",
+      "date": "31/05/2026, 14:34:32",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "90eec642-d512-4209-82b1-e8fb3edf353a",
+      "date": "31/05/2026, 14:14:17",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "c4f03326-5497-4c3c-9e9f-3db16743c3e4",
+          "name": "Café",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "total": 0.6,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "161eb91f-d148-442f-a1ea-283d5b55efab",
+      "date": "31/05/2026, 14:08:10",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "577412b3-077c-4131-9ee5-25af826ed596",
+      "date": "31/05/2026, 14:05:09",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "caba95bd-7600-481c-a90c-f83cd54e6be1",
+      "date": "31/05/2026, 14:04:45",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "b856dac9-8518-495a-96fa-9c5451388d47",
+      "date": "31/05/2026, 14:02:56",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "c4f03326-5497-4c3c-9e9f-3db16743c3e4",
+          "name": "Café",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "total": 0.6,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "765b027f-7994-415b-b79e-fdf6afe71c25",
+      "date": "31/05/2026, 14:02:35",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "433210b3-b47e-40de-b3fc-5fed2281fbcd",
+      "date": "31/05/2026, 13:57:50",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 2
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 2
+        }
+      ],
+      "total": 4.4,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "c51be021-10c7-4b3f-870f-2bd29faabd40",
+      "date": "31/05/2026, 13:57:06",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "97a5d7c1-2654-4c59-96d1-a8e2e379434c",
+          "name": "Sobremesa",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 1.5,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "1617df71-e093-4939-a785-e79f3b726a31",
+      "date": "31/05/2026, 13:55:11",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 2,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "244fa689-5a7b-4bd0-8b9a-26484f6d7861",
+      "date": "31/05/2026, 13:51:06",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "40852bd7-e6a4-44d8-83b9-de0e31f05e57",
+          "name": "Bebida",
+          "price": 1,
+          "quantity": 3
+        },
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 3
+        }
+      ],
+      "total": 6.6,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "5d762675-5f32-4ea4-b9ce-7cbfdd3ea47c",
+      "date": "31/05/2026, 13:45:00",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "100d8d5b-6962-45aa-8e7c-3ae809aa192e",
+      "date": "31/05/2026, 13:41:23",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 2
+        }
+      ],
+      "total": 7,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "d6ef1f62-b6cd-471b-a4a9-9200bb11d0e1",
+      "date": "31/05/2026, 13:37:40",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "productId": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+          "name": "Misto de Carnes",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 15,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "cc0c47fb-f16e-4624-82ce-39ae57c6e5d3",
+      "date": "31/05/2026, 13:34:29",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+          "name": "Misto de Carnes",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "a0b159f9-a7a6-4b1e-ae49-fd114223edea",
+      "date": "31/05/2026, 13:34:09",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "500c9331-b408-44eb-ad5f-b4201e7f9317",
+          "name": "Caldo Verde",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "productId": "cea1386c-85c9-4e2e-9844-8c789db47f33",
+          "name": "Água, 50cl",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 17,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "bcc9af8e-b1a8-4bf0-9d14-ce6dbec31cc7",
+      "date": "31/05/2026, 13:32:45",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 3.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "9d29ee23-8454-4e96-835f-e09b9504585e",
+      "date": "31/05/2026, 13:32:23",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "productId": "368668dd-2ac0-4b83-9871-699039c775d8",
+          "name": "Sangria",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "total": 6.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "09157b9d-a116-41ea-9c75-9875af53b2f1",
+      "date": "31/05/2026, 13:31:44",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "4e4ecda0-ef7e-4429-9465-d74c180f1a54",
+          "name": "Imperial",
+          "price": 1.2,
+          "quantity": 1
+        }
+      ],
+      "total": 1.2,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "9398c4ae-9fb8-44ca-984c-b7cb92b30056",
+      "date": "31/05/2026, 13:31:06",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 2
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "17be5fac-6c16-4c49-bd01-9fd3b2dda425",
+      "date": "31/05/2026, 13:30:38",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "a347065e-66b2-48c4-b6df-baabc402a79d",
+      "date": "31/05/2026, 13:30:35",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 8.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "a8a2457d-ab00-4776-868a-d5358f21a963",
+      "date": "31/05/2026, 13:29:53",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "d1cd6039-70bb-4c76-bc10-a4de508dd48e",
+      "date": "31/05/2026, 13:29:21",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 2
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "cancelled",
+      "cancelledAt": "31/05/2026, 13:29:47"
+    },
+    {
+      "id": "85034ebd-624a-47ad-879f-6659867e10f0",
+      "date": "31/05/2026, 13:23:16",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "15c1bb30-abda-494e-88aa-3e6c70e0b357",
+      "date": "31/05/2026, 13:22:05",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+          "name": "Misto de Carnes",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "a89c1802-d770-40f2-9fad-76f962c2c7a3",
+      "date": "31/05/2026, 13:21:05",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 2
+        }
+      ],
+      "total": 7,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "78a9d1a1-61ec-44dc-9e9b-639397274e3f",
+      "date": "31/05/2026, 13:20:59",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "835f5f8d-22a6-40ed-9c38-43d8ef0908bc",
+          "name": "Misto de Carnes",
+          "price": 10,
+          "quantity": 2
+        }
+      ],
+      "total": 20,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "2801896b-e9a4-44ef-ac30-ea8d078de20f",
+      "date": "31/05/2026, 13:17:30",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "edd025f1-c766-481f-a242-cc98081c0e74",
+      "date": "31/05/2026, 13:15:49",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 2
+        }
+      ],
+      "total": 20,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "6a9c62ad-7ef9-4ad9-9152-78957d7cf590",
+      "date": "31/05/2026, 13:15:16",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "f86d0367-7168-4017-9129-5cc5905277df",
+          "name": "Menu Criança",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 15,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "2aeffdb0-7dc7-4cd8-9add-a4b0a35f7119",
+      "date": "31/05/2026, 13:12:01",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu Adulto",
+          "price": 10,
+          "quantity": 1
+        }
+      ],
+      "total": 10,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "cf621326-986a-42dd-b6cc-3f34bc36c148",
+      "date": "31/05/2026, 13:09:08",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 3.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "ec995b67-708f-493d-9753-adfd2c8f48e8",
+      "date": "31/05/2026, 13:09:04",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 3.5,
+      "paymentMethod": "mbway",
+      "status": "completed"
+    },
+    {
+      "id": "8fbb1dfa-0b3e-4fc2-9d50-8fd37e925d61",
+      "date": "31/05/2026, 13:08:51",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total": 3.5,
+      "paymentMethod": "cash",
+      "status": "completed"
+    },
+    {
+      "id": "e218bc13-bd25-447e-8980-0568837406c0",
+      "date": "31/05/2026, 13:06:49",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "69c6ff91-b937-46e0-86bd-cc4f8fae4b70",
+          "name": "Bifana/Entremeada",
+          "price": 3.5,
+          "quantity": 2
+        }
+      ],
+      "total": 7,
+      "paymentMethod": "cash",
+      "status": "cancelled",
+      "cancelledAt": "31/05/2026, 13:08:34"
+    },
+    {
+      "id": "16b4e3c7-7d04-4876-8c24-80211c6ffc63",
+      "date": "31/05/2026, 13:06:06",
+      "eventId": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "eventName": "Padroeira",
+      "eventDate": "2026-05-31",
+      "items": [
+        {
+          "productId": "49cffc8d-ec1c-4a66-ba01-550736923164",
+          "name": "Menu",
+          "price": 10,
+          "quantity": 4
+        }
+      ],
+      "total": 40,
+      "paymentMethod": "cash",
+      "status": "completed"
+    }
+  ],
+  "events": [
+    {
+      "id": "3e5346fa-6b02-4f22-91f0-9851c19d55a8",
+      "name": "Padroeira",
+      "date": "2026-05-31",
+      "status": "open"
+    }
+  ]
+}
