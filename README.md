@@ -1,88 +1,161 @@
-# Caixa Registadora
+# Eventos Paroquiais
 
-Uma aplicação web de ponto de venda (POS) pensada para eventos — feiras, festas, mercados, e similares. Permite gerir produtos, registar vendas em tempo real, e exportar relatórios no final do evento.
+**Aplicacao web completa para gestao de eventos comunitarios** — caixa registadora, mesas, reservas e exportacao de resultados.
+
+Desenvolvido para a **Paroquia da Reboleira** como ferramenta de gestao de festas e eventos.
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-6-2D3748?logo=prisma)](https://www.prisma.io/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?logo=supabase&logoColor=white)](https://supabase.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)](https://vercel.com/)
 
 ---
 
 ## Funcionalidades
 
-- **Gestão de eventos** — cria, abre, fecha e elimina eventos; só é possível vender com um evento ativo
-- **Catálogo de produtos** — registo de produtos com emoji, preço e stock; alerta de stock mínimo
-- **Caixa registadora** — carrinho com controlo de quantidade, suporte a pagamento em dinheiro (com troco automático) e MB WAY
-- **Histórico de vendas** — consulta e anulação de vendas por evento, com resumo de receita e unidades vendidas
-- **Exportação CSV** — download do histórico de vendas em formato CSV para análise externa
-- **Persistência local** — carrinho e preferências guardados no browser entre sessões
-- **Base de dados SQLite** — dados persistidos em SQLite via servidor Express, acessível em rede local (útil para múltiplas caixas no mesmo evento)
+### Gestao de Eventos
+- Criar e listar eventos com nome, data, local e descricao
+- Dashboard por evento com acesso rapido a cada modulo
+- Navegacao por breadcrumbs intuitiva
+
+### Caixa Registadora
+- Abrir multiplas caixas por operador (uso simultaneo)
+- Catalogo de produtos com categorias e emojis automaticos
+- Carrinho de compras com calculo de total e troco
+- Pagamento por **Dinheiro** ou **MB WAY** (com QR Code)
+- Controlo de stock em tempo real
+
+### Importacao de Menu por Foto
+- Upload de foto de menu (telemovel ou scanner)
+- OCR automatico com **Tesseract.js** (100% client-side, zero custo)
+- Preview editavel antes de confirmar a importacao
+- Detecao automatica de nomes e precos
+
+### Mesas
+- Criar e organizar mesas com numero, lugares e responsavel
+- Editor visual **drag & drop** para posicionar mesas na planta da sala
+
+### Reservas
+- Registar reservas com nome, contacto e numero de pessoas
+- Atribuir reservas a mesas especificas
+- Estados: pendente, confirmada, cancelada
+- Controlo de pagamento (valor pago, pago/nao pago)
+
+### Exportacao
+- Exportar resumo completo do evento para **Excel** (.xlsx)
+- 3 folhas: Resumo Geral, Produtos, Lista de Vendas
+- Discriminacao por metodo de pagamento
 
 ---
 
-## Stack
+## Tech Stack
 
-| Camada | Tecnologia |
-|--------|------------|
-| Frontend | React 19, TypeScript, Vite |
-| Routing | React Router v7 |
-| Animações | Framer Motion |
-| Ícones | Lucide React |
-| Backend | Express + better-sqlite3 |
-| Testes | Node.js built-in test runner |
+| Tecnologia | Utilizacao |
+|---|---|
+| **Next.js 16** | Framework React com App Router |
+| **React 19** | Interface de utilizador |
+| **TypeScript 5** | Tipagem estatica |
+| **Tailwind CSS 4** | Estilos utility-first |
+| **Prisma 6** | ORM para PostgreSQL |
+| **Supabase** | Base de dados PostgreSQL na cloud (gratis) |
+| **Tesseract.js** | OCR no browser para leitura de menus |
+| **@xyflow/react** | Editor drag & drop de mesas |
+| **xlsx** | Geracao de ficheiros Excel |
+| **react-qrcode-logo** | QR Codes para pagamento MB WAY |
 
 ---
 
-## Arquitetura
+## Estrutura do Projeto
 
 ```
 src/
-├── components/      # Componentes reutilizáveis (Input, ProductCard, Modais…)
-├── models/          # Tipos TypeScript (Sale, Product, Event, CartItem…)
-├── pages/           # Páginas com lógica extraída em custom hooks
-│   ├── cash-register/
-│   ├── events/
-│   ├── history/
-│   └── products/
-├── storages/        # Camada de acesso a dados (API calls ao servidor)
-└── utils/           # Lógica pura e testada (carrinho, vendas, moeda…)
+├── app/
+│   ├── page.tsx                    # Lista de eventos
+│   ├── layout.tsx                  # Layout global com header
+│   ├── globals.css                 # Tema e variaveis de cor
+│   ├── api/
+│   │   ├── eventos/                # CRUD eventos
+│   │   ├── produtos/               # CRUD produtos
+│   │   ├── categorias/             # CRUD categorias
+│   │   ├── caixas/                 # Abrir/fechar caixas
+│   │   ├── vendas/                 # Registar vendas
+│   │   ├── mesas/                  # CRUD mesas
+│   │   ├── reservas/               # CRUD reservas
+│   │   └── export/                 # Exportacao Excel
+│   └── eventos/[id]/
+│       ├── page.tsx                # Dashboard do evento
+│       ├── menu/page.tsx           # Gestao de produtos e categorias
+│       ├── caixa/page.tsx          # Caixa registadora
+│       ├── caixa/resumo/page.tsx   # Resumo de vendas e fecho
+│       ├── mesas/page.tsx          # Editor de mesas
+│       └── reservas/page.tsx       # Gestao de reservas
+├── components/
+│   ├── Breadcrumb.tsx              # Navegacao contextual
+│   └── MenuImport.tsx              # Importacao de menu por foto (OCR)
+├── lib/
+│   ├── prisma.ts                   # Cliente Prisma (singleton)
+│   ├── emoji.ts                    # Mapeamento automatico de emojis
+│   └── menu-parser.ts             # Parser de texto OCR para produtos
+prisma/
+└── schema.prisma                   # Modelo de dados completo
 ```
-
-A lógica de negócio está separada dos componentes através de custom hooks (`useCashRegister`, `useEvents`, `useProducts`), e as funções puras críticas têm cobertura de testes.
 
 ---
 
-## Como correr
+## Setup Local
 
-### Pré-requisitos
+### Pre-requisitos
 
-- Node.js 22+
+- **Node.js** 18+
+- Conta [Supabase](https://supabase.com) gratuita
 
-### Desenvolvimento
+### Instalacao
 
 ```bash
+# Clonar o repositorio
+git clone https://github.com/PatriciaPadeiro98/church-events.git
+cd church-events
+
+# Instalar dependencias
 npm install
+
+# Configurar variaveis de ambiente
+cp .env.example .env
+# Editar .env com o DATABASE_URL do Supabase
+
+# Sincronizar schema com a base de dados
+npx prisma db push
+
+# Gerar cliente Prisma
+npx prisma generate
+
+# Iniciar servidor de desenvolvimento
 npm run dev
 ```
 
-Inicia o frontend (Vite) e o servidor Express em simultâneo. Acede em `http://localhost:5173`.
-
-### Produção (rede local)
-
-```bash
-npm run build
-npm start
-```
-
-O servidor serve o build estático e expõe a API. Útil para correr num computador e aceder de outros dispositivos na mesma rede (ex: múltiplas caixas num evento).
-
-### Testes
-
-```bash
-npm test
-```
+A aplicacao fica disponivel em **http://localhost:3000**
 
 ---
 
-## Variáveis de ambiente
+## Deploy
 
-| Variável | Descrição | Default |
-|----------|-----------|---------|
-| `PORT` | Porta do servidor | `3000` |
-| `DB_PATH` | Caminho para o ficheiro SQLite | `./db.sqlite` |
+### Vercel (recomendado — gratis)
+
+1. Fazer push do codigo para o GitHub
+2. Importar o repositorio na [Vercel](https://vercel.com)
+3. Adicionar a variavel `DATABASE_URL` em **Settings > Environment Variables**
+4. O deploy e automatico a cada push
+
+### Nota sobre Supabase
+
+O plano gratuito do Supabase **pausa a base de dados apos 7 dias de inatividade**. Para reativar, basta aceder ao dashboard do Supabase e clicar em "Restore". Os dados sao mantidos.
+
+---
+
+## Autora
+
+Desenvolvido por **Ana Patricia Padeiro**
+
+Projeto pessoal — gestao de eventos para a Paroquia da Reboleira.
