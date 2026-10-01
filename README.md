@@ -102,6 +102,8 @@ prisma/
 └── schema.prisma                   # Modelo de dados completo
 ```
 
+${db-section}
+
 ---
 
 ## Setup Local
@@ -134,6 +136,8 @@ npx prisma generate
 # Iniciar servidor de desenvolvimento
 npm run dev
 ```
+
+A aplicacao fica disponivel em **http://localhost:3000**
 
 ---
 
