@@ -135,8 +135,6 @@ npx prisma generate
 npm run dev
 ```
 
-A aplicacao fica disponivel em **http://localhost:3000**
-
 ---
 
 ## Deploy
