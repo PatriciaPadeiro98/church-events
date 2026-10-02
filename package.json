@@ -1,39 +1,34 @@
 {
-  "name": "caixa-registadora",
+  "name": "church-events",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"node server.js\"",
-    "build": "tsc -b && vite build",
-    "start": "node server.js",
-    "lint": "eslint .",
-    "test": "node --test --experimental-strip-types tests/*.test.ts",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "better-sqlite3": "^12.10.0",
-    "express": "^4.21.2",
-    "framer-motion": "^12.38.0",
-    "lucide-react": "^1.14.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "react-router-dom": "^7.15.1"
+    "@prisma/client": "^6.19.3",
+    "@xyflow/react": "^12.11.6",
+    "next": "16.3.5",
+    "qrcode": "^1.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-qrcode-logo": "^4.1.0",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/better-sqlite3": "^7.6.13",
-    "@types/node": "^24.12.2",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "concurrently": "^9.1.2",
-    "eslint": "^10.2.1",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.5.0",
-    "typescript": "~6.0.2",
-    "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "prisma": "^6.9.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
